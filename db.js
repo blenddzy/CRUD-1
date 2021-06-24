@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const url = 'mongodb://localhost/alumno_db'
+const url = 'mongodb+srv://feder:federico123@cluster0.owcnt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 
 mongoose.connect(url, {
     useNewUrlParser: true,
